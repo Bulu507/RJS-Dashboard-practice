@@ -1,12 +1,19 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
+import './Assets/fontawesome.js';
 import reportWebVitals from './reportWebVitals';
+import Home from './Layouts/Home';
+// import App from './App';
+// import Charts from './Layouts/Charts';
+
+
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    {/* <App /> */}
+    {/* <Charts /> */}
+    <Home />
   </React.StrictMode>,
   document.getElementById('root')
 );
